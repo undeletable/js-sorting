@@ -14,6 +14,6 @@ export const defaultComparisonFunction = (itemA, itemB)  => {
 
 export const validateComparisonFunction = comparisonFunction => {
     if (!ALLOWED_COMPARISON_FUNCTION_TYPES.includes(typeof comparisonFunction)) {
-        throw new TypeError('The comparison function must be either a function or undefined');
+        throw new TypeError('The comparison function argument must be either a function or undefined');
     }
 };

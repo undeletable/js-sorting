@@ -1,1 +1,1 @@
-import './quickSort';
+require('./quickSort');
