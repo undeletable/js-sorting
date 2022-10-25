@@ -1,6 +1,6 @@
 {
   "name": "js-sorting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Different sorting methods implemented using JavaScript.",
   "main": "index.js",
   "repository": {
